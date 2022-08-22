@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Yue Pan Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <!--  Use preferable fonts  -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style/style-BI/style-BI.css">
+        <!-- For echarts -->
+        <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+        <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts-stat@latest/dist/ecStat.min.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="./image/protfolio-BI/DV-title.png">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="nav__bar"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--  Introduction  -->
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                <strong>Data Visualization</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Tableau / Power BI</p>
+            <img src="./image/protfolio-BI/data-Visualisation.jpeg" alt="" class="intro__img">
+        </section>
+
+        <!-- portfolio-item -->
+        <div class="portfolio-item-individual">
+            <p>In data visualization, I was encouraged to use Tableau or Power BI to set up KPIs and create a dashboard to support our analysis of the data.</p>
+        </div>
+
+        <div class="portfolio-item-individual">
+            <p><strong>Data analysis on four approaches of COVID-19 controlling</strong></p>
+            <p>In the project of analysis of ‘What is the most effective approach to COVID-19’, I used Tableau as the tool for creating data visualization. Four methods are discussed in this project: 1) enforcing good hygienic processes, 2) Encouraging testing, 3) Controlling the flow of people through various travel restrictions, and 4) Encouraging vaccination. As this problem is time sensitive, I believe the important time-stamp could be a good indicator to cut in the analysis. Hence, I searched the NSW health website and got the timeline of policies of the NSW government. Combined with the positive cases data, it is quite clear whether some of the methods have a positive effect or not. The figure below is a sample of new positive cases in a week in NSW and all states of Australia. It indicates whether border control has a positive effect on controlling COVID-19 spreading.</p>
+        </div>
+
+        <div id="container-lm" class="body-img"></div>
+        <script type="text/javascript" src="./js/line-marker.js"></script>
+
+        <div class="portfolio-item-individual">
+            <p>The bar chart below shows the strategy of encouraging testing. This strategy affects discovery of the potential positive cases in the wild. It is an indicator for how many people are getting involved with the COVID-19. However, there may be a delay of real positive cases in the figure. Hence, this strategy needs to refer to another strategy to get a conclusion.</p>
+        </div>
+
+        <div id="container-bargrad" class="body-img"></div>
+        <script type="text/javascript" src="./js/bar-gradient.js"></script>
+
+        <div class="portfolio-item-individual">
+            <p><strong>Data visualization on different data breaches</strong></p>
+            <p>Another project is to create a dashboard that indicates the data breach in the US. There are different types of data breach and the targets have different levels of importance. Hence, I decide to separate the data due to the types and target importances. One of the KPIs is the increasing rate of each breach type and each level of targets. The dashboard contains the most dangerous breach method, the most breached target, the increasing rate, and the whole view of distribution of breaches. The figure below indicates four types of breach changes with the year.</p>
+        </div>
+
+        <div id="container-datalink" class="body-img"></div>
+        <script type="text/javascript" src="./js/dataset-link.js"></script>
+
+        
+
+        <!--  Footer  -->
+        <footer class="footer">
+            <a href="" class="footer__link">panyue9743@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="./js/index.js"></script>
+
+    </body>
+</html>
