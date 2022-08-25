@@ -43,6 +43,34 @@
         </section>
 
         <!-- portfolio-item -->
+        <!-- Pivot in Excel -->
+        <div class="portfolio-item-individual">
+            <p><strong>Pivot in Excel</strong></p>
+            <p>This is a simple example for pivot data in Excel. During my previous work, it is inevitable to record purchases and losses. I used to work with Excel and SQL to document these records. In this example, I replace the product name of electric devices by clothes and random the number, but the processes of pivoting are the same.</p>
+            <p>With the data given in Excel, I used to create a pivot table for reports. In the picture below, it shows different cloth types with its relative number. This represents new purchases in a month which indicates different needs for each good. Different needs could show many things, for example: 1) the quality of current product we use; 2) the potential risks of large amounts needed. The first thought indicates the current supplier has good or bad quality of products. It affects whether to maintain a corporate relationship or not. The second thought indicates the potential risks in certain conditions. If one type of good is greatly needed in one spot, it may be a forecast of system failure in the future. Also, it advises us to use better quality of goods to meet the condition or the circumstance is not good for such a system and replacement is not enough to solve the problem.</p>
+        </div>
+
+        <img src="./image/portfolio-ML/PivotEmp-1.png" alt="" class="body-img">
+
+        <div class="portfolio-item-individual">
+            <p>In the next picture, it shows how to use filters to find out specific data we are interested in. The filter is the single price. It helps to find out different types of goods at the same price which means to find more suppliers in the same budget.</p>
+        </div>
+
+        <img src="./image/portfolio-ML/PivotEmp-2.png" alt="" class="body-img">
+
+        <div class="portfolio-item-individual">
+            <p>In my work experience, there is an increasing monthly cost in one of the projects. I used excel pivot to find out some abnormal costs in the construction progress and found out the poor quality of the product in one of our suppliers. Finally, we changed the supplier and made the monthly costs fall into the range of our budget.</p>
+        </div>
+
+        <!-- Python Pivot Table with pandas -->
+        <div class="portfolio-item-individual">
+            <p><strong>Python Pivot Table with pandas</strong></p>
+            <p>This is python code for pivot tables with pandas. Use ‘read_csv’ to load the data. Before pivoting, use the ‘head’ function to look up the legends. Use the ‘pivot_table’ function to create a pivot table. There are three basic types of usage for pivot tables using pandas. The first one is the basic one. Choose an index or indices (legends) for pivot and rest parameters are by default.  The aggregation function means to use costermise functions in the chosen index (legend). By default, the aggregation function is ‘count’, just like in the excel pivot table. The possible chosen aggregation function can be ‘count’, ‘mean’, ‘max’, ‘min’, ‘sum’, etc. This is the same as using ‘field settings’ in excel and choosing ‘count’, ‘average’, ‘max’, ‘min’ and ‘sum’.</p>
+        </div>
+
+        <img src="./image/portfolio-ML/PythonPDPivot.png" alt="" class="body-img">
+
+        <!-- Linear-regression -->
         <div class="portfolio-item-individual">
             <p><strong>Linear-regression</strong></p>
             <p>Linear Regression is a linear modeling method which uses a linear function that could represent relationships between a group of data points. The linear regression focuses on the conditional probability distribution. In supervised machine learning, linear regression is one of the fundamental algorithms. The sample below comes from echarts-examples and is modified which represents the basic knowledge of linear regression.</p>
@@ -51,6 +79,7 @@
         <div id="container-slr" class="body-img"></div>
         <script type="text/javascript" src="./js/scatter-linear-regression.js"></script>
 
+        <!-- Exponential-regression -->
         <div class="portfolio-item-individual">
             <p><strong>Exponential-regression</strong></p>
             <p>Exponential Regression is similar to linear regression but it represents a change which is not at a fixed rate. The growth of population, temperature or radioactive decay can be modeled by exponential functions. The sample below comes from echarts-examples and is modified which represents the basic knowledge of exponential regression.</p>
@@ -59,6 +88,7 @@
         <div id="container-ser" class="body-img"></div>
         <script type="text/javascript" src="./js/scatter-exponential-regression.js"></script>
 
+        <!-- Clustering-progress -->
         <div class="portfolio-item-individual">
             <p><strong>Clustering-progress</strong></p>
             <p>Clustering aims to divide small different groups in a big group. It is widely used in pattern recognition, image analysis, and machine learning. One of the commonly used algorithms is k-means. The basic concept of k-means is to specify the number of clusters: k and find  the nearest neighbour of each center. The sample below comes from echarts-examples and is modified which represents the basic knowledge of clustering.</p>
@@ -66,6 +96,8 @@
 
         <div id="container-scp" class="body-img"></div>
         <script type="text/javascript" src="./js/scatter-clustering-process.js"></script>
+
+        
 
         <!--  Footer  -->
         <footer class="footer">
