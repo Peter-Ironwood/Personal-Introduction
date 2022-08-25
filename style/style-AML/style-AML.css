@@ -302,6 +302,24 @@ header {
     height: 50%;
 }
 
+/* body */
+
+.body-img-1 {
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+@media (max-width: 600px) {
+    .body-img-1 {
+        display: block;
+        margin: auto;
+        width: 320px;
+        height: 240px;
+    }
+}
+
 /* footer */
 
 .footer {
